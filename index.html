@@ -1,1 +1,190 @@
-fgsf  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kripa Shankar | Portfolio</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background:#0f172a;
+      color:white;
+      line-height:1.6;
+    }
+
+    header{
+      height:100vh;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      padding:20px;
+    }
+
+    header h1{
+      font-size:60px;
+      margin-bottom:10px;
+    }
+
+    header p{
+      font-size:22px;
+      color:#94a3b8;
+    }
+
+    .btn{
+      margin-top:25px;
+      display:inline-block;
+      padding:12px 24px;
+      background:#3b82f6;
+      color:white;
+      text-decoration:none;
+      border-radius:8px;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      background:#2563eb;
+    }
+
+    section{
+      padding:80px 10%;
+    }
+
+    h2{
+      font-size:36px;
+      margin-bottom:30px;
+      text-align:center;
+    }
+
+    .about p{
+      max-width:800px;
+      margin:auto;
+      text-align:center;
+      color:#cbd5e1;
+    }
+
+    .skills{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+      gap:20px;
+      margin-top:40px;
+    }
+
+    .skill{
+      background:#1e293b;
+      padding:20px;
+      text-align:center;
+      border-radius:10px;
+    }
+
+    .projects{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:25px;
+      margin-top:40px;
+    }
+
+    .project{
+      background:#1e293b;
+      padding:20px;
+      border-radius:10px;
+    }
+
+    .project h3{
+      margin-bottom:10px;
+    }
+
+    footer{
+      text-align:center;
+      padding:30px;
+      background:#020617;
+      color:#94a3b8;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hi, I'm Kripa Shankar 👋</h1>
+    <p>Full Stack Developer | React | Next.js | NestJS</p>
+
+    <a href="#projects" class="btn">View Projects</a>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+
+    <p>
+      I am a Full Stack Developer passionate about building modern web applications.
+      Currently learning advanced backend development with NestJS, PostgreSQL, and Prisma.
+    </p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+
+    <div class="skills">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">React</div>
+      <div class="skill">Next.js</div>
+      <div class="skill">Node.js</div>
+      <div class="skill">NestJS</div>
+      <div class="skill">PostgreSQL</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="projects">
+
+      <div class="project">
+        <h3>E-Commerce Website</h3>
+        <p>
+          Full stack ecommerce website with authentication,
+          cart system, admin dashboard, and payment integration.
+        </p>
+      </div>
+
+      <div class="project">
+        <h3>Auth System</h3>
+        <p>
+          Login and registration system using JWT,
+          PostgreSQL, Prisma, and NestJS.
+        </p>
+      </div>
+
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>
+          Personal responsive portfolio website hosted on GitHub Pages.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+
+    <p style="text-align:center;">
+      📧 kripashankerpandey1503@gmail.com
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2026 Kripa Shankar. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
